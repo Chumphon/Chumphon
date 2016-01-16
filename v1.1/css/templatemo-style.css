@@ -26,17 +26,13 @@ html, body {
 	font-family: 'Proxima Bold';
 	src: url(../fonts/ProximaNova-Bold.otf);
 }
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Proxima Bold";
-
 @font-face {
-	font-family: 'Quark'
-	src: url(C:\Users\khwansakun\Documents\GitHub\Chumphon\v1.1\fonts);
+	font-family: 'Quark';
+	src: url(../fonts/Quark-Light.otf);
 }
 @font-face {
-font-family: 'Quark Bold'
-src:url(C:\Users\khwansakun\Documents\GitHub\Chumphon\v1.1\fonts);
+font-family: 'Quark Bold';
+src:url(../fonts/Quark-Bold.otf);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Bold", "Quark";
@@ -164,9 +160,6 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #007d75;
 	transition: all 0.4s ease-in-out;
 }
-	color: #eb5424;
-	transition: all 0.4s ease-in-out;
-}
 
 /*placesection*/
 #place {
@@ -196,6 +189,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-left: 20px;
 	line-height: 40px;
 }
+/*สีตอนชี้ nav bar*/
 .navbar-default .navbar-nav li a:hover {
 	color: #007d75;
 }
@@ -207,20 +201,6 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #007d75;
 	background-color: transparent;
 }
-	color: #eb5424;
-}
-/*สีตอนชี้ nav bar*/
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #007d75;
-	background-color: transparent;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #606060;
-	background-color: transparent;
-}
-
-
 .navbar-default .navbar-toggle {
 	border: none;
 	padding-top: 12px;
@@ -233,21 +213,11 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
 }
-/*placesection*/
-#place {
-	color: #007d75;
-}
-/* intro section */
-
-#hotels {
-	padding-top: 180px;
-	padding-bottom: 140px;
-
 
 
 /* intro section */
 #hotels {
-	font-family: "Quark"
+	font-family: "Quark";
 }
 #hotels{
 	font-size: 40px;
@@ -259,7 +229,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 #hotels h4 {
 	padding-bottom: 16px;
 }
-/* work section */
+
 
 /* work section */
 #souvenirs {
@@ -301,9 +271,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #303030;
 }
 /* team section */
-#festival a:link {
-	text-decoration: none;
-}
+
 #festival {
 	background: #202020 url('../images/team-bg.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
@@ -345,7 +313,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #eb5424;
 	padding-bottom: 60px;
 }
-#aboutus a:link {
+
 #aboutus a {
 	text-decoration: none;
 }
@@ -363,9 +331,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	opacity: 0.9;
 }
 /* price section */
-#review a:link {
-	text-decoration: none;
-}
+
 #review {
 	background: #fff;
 	padding-top: 100px;
@@ -417,9 +383,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	height: 400px;
 }
 /* contact section */
-#webboard a:link {
-	text-decoration: none;
-}
+
 #webboard {
 	background: #f6f6f6 url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
@@ -478,9 +442,8 @@ footer .copyright a {
 	list-style: none;
 	display: inline-block;
 }
-.social-icon li a:link {
+
 .social-icon li a {
->>>>>>> origin/gh-pages
 	background: #f8f8f8;
 	border-radius: 100%;
 	color: #eb5424;

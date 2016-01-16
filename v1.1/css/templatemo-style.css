@@ -222,8 +222,8 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-size: 40px;
 }
 #hotels {
-	padding-top: 180px;
-	padding-bottom: 140px;
+	padding-top: 100px;
+	padding-bottom: 120px;
 }
 #hotels h4 {
 	padding-bottom: 16px;

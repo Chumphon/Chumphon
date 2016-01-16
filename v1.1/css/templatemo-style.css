@@ -26,8 +26,21 @@ html, body {
 	font-family: 'Proxima Bold';
 	src: url(../fonts/ProximaNova-Bold.otf);
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Bold";
+
+@font-face {
+	font-family: 'Quark'
+	src: url(C:\Users\khwansakun\Documents\GitHub\Chumphon\v1.1\fonts);
+}
+@font-face {
+font-family: 'Quark Bold'
+src:url(C:\Users\khwansakun\Documents\GitHub\Chumphon\v1.1\fonts);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Proxima Bold", "Quark";
+
 	font-weight: bold;
 }
 p {
@@ -119,11 +132,6 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 }
 /* restaurant section */
-<STYLE TYPE="TEXT/CSS"><!--
-
-#restaurant a:link {
-	text-decoration: none;
-}
 #restaurant {
 	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
@@ -143,6 +151,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #restaurant .btn {
 	background: #007d75;
+	background: #eb5424;
 	border-radius: 4px;
 	border: none;
 	color: #ffffff;
@@ -155,6 +164,15 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #007d75;
 	transition: all 0.4s ease-in-out;
 }
+	color: #eb5424;
+	transition: all 0.4s ease-in-out;
+}
+
+/*placesection*/
+#place {
+	color: #007d75;
+}
+
 /* navigation section */
 .navbar-default {
 	background: #fff;
@@ -168,6 +186,9 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	margin: 0;
 	line-height: 40px !important;
 }
+
+/*สีของ nav bar แต่ละตัว*/
+
 .navbar-default .navbar-nav li a {
 	color: #606060;
 	font-weight: bold;
@@ -186,10 +207,25 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	color: #007d75;
 	background-color: transparent;
 }
+	color: #eb5424;
+}
+/*สีตอนชี้ nav bar*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #007d75;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #606060;
+	background-color: transparent;
+}
+
+
 .navbar-default .navbar-toggle {
 	border: none;
 	padding-top: 12px;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
 	background: #eb5424;
 	border-color: transparent;
@@ -201,24 +237,31 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 #place {
 	color: #007d75;
 }
-#place a:link {
-	text-decoration: none;
-}
 /* intro section */
-#hotels a:link {
-	text-decoration: none;
-}
+
 #hotels {
 	padding-top: 180px;
 	padding-bottom: 140px;
+
+
+
+/* intro section */
+#hotels {
+	font-family: "Quark"
+}
+#hotels{
+	font-size: 40px;
+}
+#hotels {
+	padding-top: 100px;
+	padding-bottom: 120px;
 }
 #hotels h4 {
 	padding-bottom: 16px;
 }
 /* work section */
-#souvenirs a:link {
-	text-decoration: none;
-}
+
+/* work section */
 #souvenirs {
 	background-color: #ffffff;
 }
@@ -303,6 +346,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 60px;
 }
 #aboutus a:link {
+#aboutus a {
 	text-decoration: none;
 }
 #aboutus img {
@@ -383,6 +427,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 80px;
 }
 #webboard h2 {
+#webboardh2 {
 	color: #ffffff;
 }
 #webboard .form-control {
@@ -434,6 +479,8 @@ footer .copyright a {
 	display: inline-block;
 }
 .social-icon li a:link {
+.social-icon li a {
+>>>>>>> origin/gh-pages
 	background: #f8f8f8;
 	border-radius: 100%;
 	color: #eb5424;

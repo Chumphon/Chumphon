@@ -6,8 +6,8 @@ http://www.templatemo.com/free-website-templates/
 body {
 	background: #f8f8f8;
 	color: #606060;
-	font-family: 'Proxima', sans-serif;
-	font-size: 16px;
+	font-family: 'Quark', sans-serif;
+	font-size: 20px;
 	font-weight: 400;
 	position: relative;
 }
@@ -36,7 +36,6 @@ src:url(../fonts/Quark-Bold.otf);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Bold", "Quark";
-
 	font-weight: bold;
 }
 p {
@@ -127,8 +126,8 @@ transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
 transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 }
-/* restaurant section */
-#restaurant {
+/*Welcome section*/
+#welcome {
 	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
 	color: #ffffff;
 	display: -webkit-box;
@@ -142,10 +141,11 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	height: 100vh;
 	text-align: center;
 }
-#restaurant h2 {
+
+#welcome h2 {
 	letter-spacing: 2px;
 }
-#restaurant .btn {
+#welcome .btn {
 	background: #007d75;
 	background: #ffffff;
 	border-radius: 4px;
@@ -155,16 +155,30 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding: 20px 40px;
 	margin-top: 60px;
 }
-#restaurant .btn:hover {
+
+
+#welcome .btn {
+	background: #007d75;
+	background: #ffffff;
+	border-radius: 4px;
+	border: none;
+	color: #007d75;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+#welcome .btn:hover {
 	background: #007d75;
 	color: #ffffff;
 	transition: all 0.4s ease-in-out;
 }
 
+/* restaurant section */
+
+
 /*placesection*/
-#place {
-	color: #007d75;
-}
+
 
 /* navigation section */
 .navbar-default {
@@ -173,8 +187,9 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.04);
 	margin: 0 !important;
 }
+/*chomphon*/
 .navbar-default .navbar-brand {
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: bold;
 	margin: 0;
 	line-height: 40px !important;
@@ -214,47 +229,29 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background-color: transparent;
 }
 
-
-/* intro section */
-#hotels {
+/* Chumphon section */
+#chumphon {
 	font-family: "Quark";
 }
-#hotels{
+#chumphon{
 	font-size: 40px;
 }
-#hotels {
+#chumphon {
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
-#hotels h4 {
+#chumphon h4 {
 	padding-bottom: 16px;
 }
+/* intro section */
 
 
 /* work section */
-#souvenirs {
-	background-color: #ffffff;
-}
-#souvenirs .container {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-#souvenirs .title {
+
+#work .title {
 	padding: 100px 60px 60px 60px;
 }
-#souvenirs .bg-black {
-	background-color: #303030;
-	color: #ffffff;
-}
-#souvenirs .bg-red {
-	background-color: #007d75;
-	color: #007d75;
-}
-#souvenirs h3 {
-	padding-bottom: 60px;
-}
-#souvenirs .fa {
+#work .fa {
 	color: #ffffff;
 	cursor: pointer;
 	font-size: 40px;
@@ -265,11 +262,14 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	transition: all 0.4s ease-in-out;
 	margin-top: 40px;
 }
-#souvenirs .fa:hover {
+#work .fa:hover {
 	background-color: #ffffff;
 	border-radius: 50%;
 	color: #303030;
 }
+
+
+
 /* team section */
 
 #festival {
@@ -415,7 +415,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background-color: #202020;
 }
 /* footer section */
-footer {
+.footer {
 	background: #202020;
 	color: #ffffff;
 	border-bottom: 10px solid #ffffff;
@@ -429,20 +429,23 @@ footer h2 {
 footer p {
 	line-height: 20px;
 }
-footer .copyright a {
+footer a {
 	color: #007d75;
 }
-.social-icon {
+
+
+.social-icon> li > a:focus {
 	padding: 0;
 	margin: 0;
 	text-align: center;
 	vertical-align: middle;
+	background-color: transparent;
 }
 .social-icon li {
 	list-style: none;
 	display: inline-block;
+	background-color: transparent;
 }
-
 .social-icon li a {
 	background: #f8f8f8;
 	border-radius: 100%;
@@ -455,9 +458,11 @@ footer .copyright a {
 	text-decoration: none;
 	transition: all 0.4s ease-in-out;
 	margin: 0 6px 40px 6px;
+		background-color: transparent;
 }
 .social-icon li a:hover {
 	background: #080808;
+	background-color: transparent;
 }
 @media screen and (max-width:980px) {
 .navbar-default .navbar-nav li a {

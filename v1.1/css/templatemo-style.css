@@ -1,7 +1,3 @@
-/*
-ROMNA Template
-http://www.templatemo.com/free-website-templates/
-*/
 
 body {
 	background: #f8f8f8;
@@ -246,256 +242,47 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 /* intro section */
 
 
-/* work section */
-
-#work .title {
-	padding: 100px 60px 60px 60px;
-}
-#work .fa {
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 40px;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	transition: all 0.4s ease-in-out;
-	margin-top: 40px;
-}
-#work .fa:hover {
-	background-color: #ffffff;
-	border-radius: 50%;
-	color: #303030;
-}
+/* work section
 
 
-
-/* team section */
-
-#festival {
-	background: #202020 url('../images/team-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-#festival h2 {
-	color: #ffffff;
-}
-#festival h3 {
-	font-size: 20px;
-	line-height: 10px;
-}
-#festival h4 {
-	color: #202020;
-	line-height: 10px;
-	font-weight: bold;
-}
-#festival .team-des {
-	background-color: #007d75;
-	color: #ffffff;
-	padding: 20px 12px;
-	position: relative;
-}
-#festival img {
-	max-width: 100%;
-	height: auto;
-	padding-top: 60px;
-}
-/* portfolio section */
-#aboutus {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-#aboutus h2 {
-	line-height: 20px;
-}
-#aboutus h3 {
-	color: #007d75;
-	padding-bottom: 60px;
-}
-
-#aboutus a {
-	text-decoration: none;
-}
-#aboutus img {
-	border-radius: 1px;
-	width: 100%;
-	max-width: 100%;
-	height: auto;
-	opacity: 0.8;
-	margin-bottom: 34px;
-	opacity: 0.6;
-	transition: all 0.4s ease-in-out;
-}
-#aboutus img:hover {
-	opacity: 0.9;
-}
-/* price section */
-
-#review {
-	background: #fff;
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-#review .plan {
+/* footer section css */
+footer{
 	background: #007d75;
 	color: #ffffff;
-	padding: 0 0 60px 0;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-#review .plan .plan_title {
-	background-color: #f6f6f6;
-	color: #202020;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-#review .plan .plan_sub_title {
-	border-bottom: 1px solid #ffffff;
-	padding: 30px;
-}
-#review .plan ul {
-	padding: 0;
-}
-#review .plan ul li {
-	display: block;
-	font-family: "Proxima";
-	font-size: 16px;
-	padding: 40px 0 10px 0;
-}
-#review .plan .btn {
-	background: #ffffff;
-	border: none;
-	border-radius: 0;
-	color: #202020;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 20px 40px;
-	transition: all 0.4s ease-in-out;
-	margin-top: 20px;
-}
-#review .plan .btn:hover {
-	background: #202020;
-	color: #ffffff;
-}
-/* google map section */
-#map-canvas {
-	border: none;
-	width: 100%;
-	height: 400px;
-}
-/* contact section */
-
-#webboard {
-	background: #f6f6f6 url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
-	padding-top: 100px;
-	padding-bottom: 80px;
-}
-#webboard h2 {
-#webboardh2 {
-	color: #ffffff;
-}
-#webboard .form-control {
-	border-radius: 4px;
-	border: none;
-	box-shadow: none;
-	margin-top: 12px;
-	margin-bottom: 14px;
-}
-#webboard input {
-	height: 50px;
-}
-#webboard input[type="submit"] {
-	background-color: #007d75;
-	color: #ffffff;
-	height: 60px;
-	font-weight: bold;
-	transition: all 0.4s ease-in-out;
-}
-#webboard input[type="submit"]:hover {
-	background-color: #202020;
-}
-/* footer section */
-.footer {
-	background: #202020;
-	color: #ffffff;
-	border-bottom: 10px solid #ffffff;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-footer h2 {
-	padding-top: 40px;
+footer h2{
+	font-size: 20px;
 	padding-bottom: 20px;
 }
-footer p {
+footer p{
 	line-height: 20px;
+	font-size: 15px;
+	font-family: "Proxima";
 }
-footer a {
-	color: #007d75;
-}
-
-
-.social-icon> li > a:focus {
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	vertical-align: middle;
-	background-color: transparent;
+footer .copyright a {
+	color: #eb5424;
 }
 .social-icon li {
 	list-style: none;
 	display: inline-block;
-	background-color: transparent;
 }
-.social-icon li a {
+.social-icon li a{
 	background: #f8f8f8;
 	border-radius: 100%;
-	color: #007d75;
-	font-size: 32px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
+	color: #eb5424;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.4s ease-in-out;
-	margin: 0 6px 40px 6px;
-		background-color: transparent;
+	margin: 0 6px 10px 6px ;
 }
-.social-icon li a:hover {
-	background: #080808;
-	background-color: transparent;
-}
-@media screen and (max-width:980px) {
-.navbar-default .navbar-nav li a {
-	padding-right: 14px;
-	padding-left: 14px;
-	font-size: 13px;
-}
-#hotels h2 {
-	font-size: 32px;
-}
-#souvenirs .title {
-	padding: 80px 20px 20px 20px;
-}
-.portfolio-thumb .portfolio-overlay {
-	padding-top: 24px;
-}
-}
-@media (max-width:767px) {
-.navbar-brand {
-	padding-top: 6px;
-}
-}
-@media (max-width:400px) {
-#restaurant h1 {
-	font-size: 32px;
-}
-#restaurant h2 {
-	font-size: 22px;
-}
-#hotels h2 {
-	font-size: 20px;
-}
-.portfolio-thumb .portfolio-overlay {
-	padding-top: 60px;
-}
+.social-icon li a:hover{
+	background: #eb5424;
+	color: #ffffff;
 }

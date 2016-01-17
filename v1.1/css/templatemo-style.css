@@ -170,6 +170,35 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	transition: all 0.4s ease-in-out;
 }
 
+/* Gallery section */
+#Gallery {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#Gallery h2 {
+	line-height: 20px;
+}
+#Gallery h3 {
+	color: #eb5424;
+	padding-bottom: 60px;
+}
+#Gallery a {
+	text-decoration: none;
+}
+#Gallery img {
+	border-radius: 1px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	opacity: 0.8;
+	margin-bottom: 34px;
+	opacity: 0.6;
+	transition: all 0.4s ease-in-out;
+}
+#Gallery img:hover {
+	opacity: 0.9;
+}
+
 /* restaurant section */
 
 

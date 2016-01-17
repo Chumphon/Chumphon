@@ -147,17 +147,17 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 #restaurant .btn {
 	background: #007d75;
-	background: #eb5424;
+	background: #ffffff;
 	border-radius: 4px;
 	border: none;
-	color: #ffffff;
+	color: #007d75;
 	font-size: 16px;
 	padding: 20px 40px;
 	margin-top: 60px;
 }
 #restaurant .btn:hover {
-	background: #fff;
-	color: #007d75;
+	background: #007d75;
+	color: #ffffff;
 	transition: all 0.4s ease-in-out;
 }
 
@@ -207,7 +207,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background: #eb5424;
+	background: #007d75;
 	border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -291,7 +291,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-weight: bold;
 }
 #festival .team-des {
-	background-color: #eb5424;
+	background-color: #007d75;
 	color: #ffffff;
 	padding: 20px 12px;
 	position: relative;
@@ -310,7 +310,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	line-height: 20px;
 }
 #aboutus h3 {
-	color: #eb5424;
+	color: #007d75;
 	padding-bottom: 60px;
 }
 
@@ -338,7 +338,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 120px;
 }
 #review .plan {
-	background: #eb5424;
+	background: #007d75;
 	color: #ffffff;
 	padding: 0 0 60px 0;
 }
@@ -405,7 +405,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	height: 50px;
 }
 #webboard input[type="submit"] {
-	background-color: #eb5424;
+	background-color: #007d75;
 	color: #ffffff;
 	height: 60px;
 	font-weight: bold;
@@ -430,7 +430,7 @@ footer p {
 	line-height: 20px;
 }
 footer .copyright a {
-	color: #eb5424;
+	color: #007d75;
 }
 .social-icon {
 	padding: 0;
@@ -446,7 +446,7 @@ footer .copyright a {
 .social-icon li a {
 	background: #f8f8f8;
 	border-radius: 100%;
-	color: #eb5424;
+	color: #007d75;
 	font-size: 32px;
 	width: 80px;
 	height: 80px;

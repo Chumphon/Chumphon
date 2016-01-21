@@ -206,23 +206,21 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 /*placesection*/
 
 
-/* navigation section */
+/* navigation section
 .navbar-default {
 	background: #fff;
 	border: none;
 	box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.04);
 	margin: 0 !important;
-}
-/*chomphon*/
+}*/
+/*กำหนด คำว่า chomphon*/
 .navbar-default .navbar-brand {
 	font-size: 50px;
 	font-weight: bold;
 	margin: 0;
 	line-height: 40px !important;
 }
-
-/*สีของ nav bar แต่ละตัว*/
-
+/*จัดระยะความห่างของnavbar*/
 .navbar-default .navbar-nav li a {
 	color: #606060;
 	font-weight: bold;
@@ -230,30 +228,40 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-left: 20px;
 	line-height: 40px;
 }
-/*สีตอนชี้ nav bar*/
+/*สีตอนชี้ nav bar */
 .navbar-default .navbar-nav li a:hover {
 	color: #007d75;
 }
+
+.active{
+	color: #007d75;
+}
+
+/*ไม่มีผลปิด
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #606060;
 	background-color: transparent;
-}
+}*/
+/*ไม่มีผลปิด
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #007d75;
 	background-color: transparent;
-}
+}*/
+/*
 .navbar-default .navbar-toggle {
 	border: none;
 	padding-top: 12px;
-}
-
+}*/
+/*ไม่มีผลปิด
 .navbar-default .navbar-toggle .icon-bar {
 	background: #007d75;
 	border-color: transparent;
-}
+}*/
+/*ไม่มีผลปิด
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
-}
+}*/
+
 
 /* Chumphon section */
 #chumphon {

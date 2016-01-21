@@ -40,29 +40,44 @@
 
 
   <!-- navigation section -->
+  <!-- แก้ dropdown-menu-->
   <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-        </button>
     <FONT FACE="Proxima"><a href="index.html" class="navbar-brand">CHUMPHON</a></FONT>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><class="place"><a href="place.html" style="text-decoration:none">สถานที่่ท่องเที่ยว</a></li>
-          <li><class="restaurant"><a href="restaurant.html" style="text-decoration:none" color= "#007d75">ร้านอาหาร</a></li>
-          <li><class="hotels"><a href="hotels.html" style="text-decoration:none">ที่พัก</a></li>
-          <li><class="souvenirs"><a href="souvenirs.html" style="text-decoration:none">ของฝาก</a></li>
-          <li><FONT FACE="Proxima" class="festival"><font size="3px"><a href="festival.html" style="text-decoration:none">FESTIVAL</a></li></font></FONT>
-          <li><class="review"><a href="review.html" style="text-decoration:none">รีวิว</a></li>
-          <li><class="webboard"><a href="web_board.html" style="text-decoration:none">เว็บบอร์ด</a></li>
-        </ul>
-      </div>
-    </div>
+  <ul class="nav nav-pills navbar-nav navbar-right">
+    <li role="presentation"><a href="place.html" style="text-decoration:none">สถานที่่ท่องเที่ยว</a></li>
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="active">
+        ร้านอาหาร <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="bakery.html">Bakery</a></li>
+        <li class="divider"></li>
+        <li><a href="cafe.html">Cafe</a></li>
+        <li class="divider"></li>
+        <li><a href="restaurant.html">Restaurant</a></li>
+      </ul>
+    </li>
+    <li role="presentation"><a href="hotels.html" style="text-decoration:none">ที่พัก</a></li>
+    <li role="presentation"><a href="souvenirs.html" style="text-decoration:none">ของฝาก</a></li>
+    <li role="presentation"><a href="festival.html" style="text-decoration:none">FESTIVAL</a></li>
+    <li role="presentation" class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="active">
+       รีวิว <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="reviews-search.html">ค้นหารีวิว</a></li>
+        <li class="divider"></li>
+        <li><a href="review-write.html">เขียนรีวิว</a></li>
+      </ul>
+    </li>
+    <li role="presentation"><a href="web_board.html" style="text-decoration:none">เว็บบอร์ด</a></li>
+  </ul>
   </div>
+  </div>
+
 
   <!-- ลองทำนะจ๊ะ
   <div class="container">

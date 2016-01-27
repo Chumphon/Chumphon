@@ -1,13 +1,9 @@
-/*
-ROMNA Template
-http://www.templatemo.com/free-website-templates/
-*/
 
 body {
 	background: #f8f8f8;
 	color: #606060;
-	font-family: 'Proxima', sans-serif;
-	font-size: 16px;
+	font-family: 'Quark', sans-serif;
+	font-size: 20px;
 	font-weight: 400;
 	position: relative;
 }
@@ -36,7 +32,6 @@ src:url(../fonts/Quark-Bold.otf);
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Proxima Bold", "Quark";
-
 	font-weight: bold;
 }
 p {
@@ -105,6 +100,7 @@ h6 {
 	background: none repeat scroll 0 0 #fff;
 	background: none repeat scroll 0 0 #f9f9f9;
 }
+/*คืออะไร*/
 .sk-spinner-rotating-plane.sk-spinner {
 	width: 40px;
 	height: 40px;
@@ -127,10 +123,10 @@ transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
 transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 }
-/* restaurant section */
-#restaurant {
+/*Welcome section*/
+#welcome {
 	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
+	color: #000000;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -142,12 +138,13 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	height: 100vh;
 	text-align: center;
 }
-#restaurant h2 {
+
+#welcome h2 {
 	letter-spacing: 2px;
 }
-#restaurant .btn {
+#welcome .btn {
 	background: #007d75;
-	background: #ffffff;
+	background: #FFFFFF ;
 	border-radius: 4px;
 	border: none;
 	color: #007d75;
@@ -155,169 +152,43 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding: 20px 40px;
 	margin-top: 60px;
 }
-#restaurant .btn:hover {
+
+
+#welcome .btn {
 	background: #007d75;
-	color: #ffffff;
+	background: #FFFFFF ;
+	border-radius: 4px;
+	border: none;
+	color: #007d75;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+#welcome .btn:hover {
+	background: #007d75;
+	color: #FFFFFF;
 	transition: all 0.4s ease-in-out;
 }
 
-/*placesection*/
-#place {
-	color: #007d75;
-}
-
-/* navigation section */
-.navbar-default {
-	background: #fff;
-	border: none;
-	box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.04);
-	margin: 0 !important;
-}
-.navbar-default .navbar-brand {
-	font-size: 40px;
-	font-weight: bold;
-	margin: 0;
-	line-height: 40px !important;
-}
-
-/*สีของ nav bar แต่ละตัว*/
-
-.navbar-default .navbar-nav li a {
-	color: #606060;
-	font-weight: bold;
-	padding-right: 20px;
-	padding-left: 20px;
-	line-height: 40px;
-}
-/*สีตอนชี้ nav bar*/
-.navbar-default .navbar-nav li a:hover {
-	color: #007d75;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #606060;
-	background-color: transparent;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #007d75;
-	background-color: transparent;
-}
-.navbar-default .navbar-toggle {
-	border: none;
-	padding-top: 12px;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-	background: #007d75;
-	border-color: transparent;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: transparent;
-}
 
 
-/* intro section */
-#hotels {
-	font-family: "Quark";
-}
-#hotels{
-	font-size: 40px;
-}
-#hotels {
-	padding-top: 100px;
-	padding-bottom: 120px;
-}
-#hotels h4 {
-	padding-bottom: 16px;
-}
-
-
-/* work section */
-#souvenirs {
-	background-color: #ffffff;
-}
-#souvenirs .container {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-#souvenirs .title {
-	padding: 100px 60px 60px 60px;
-}
-#souvenirs .bg-black {
-	background-color: #303030;
-	color: #ffffff;
-}
-#souvenirs .bg-red {
-	background-color: #007d75;
-	color: #007d75;
-}
-#souvenirs h3 {
-	padding-bottom: 60px;
-}
-#souvenirs .fa {
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 40px;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	transition: all 0.4s ease-in-out;
-	margin-top: 40px;
-}
-#souvenirs .fa:hover {
-	background-color: #ffffff;
-	border-radius: 50%;
-	color: #303030;
-}
-/* team section */
-
-#festival {
-	background: #202020 url('../images/team-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
+/* Gallery section */
+#Gallery {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-#festival h2 {
-	color: #ffffff;
-}
-#festival h3 {
-	font-size: 20px;
-	line-height: 10px;
-}
-#festival h4 {
-	color: #202020;
-	line-height: 10px;
-	font-weight: bold;
-}
-#festival .team-des {
-	background-color: #007d75;
-	color: #ffffff;
-	padding: 20px 12px;
-	position: relative;
-}
-#festival img {
-	max-width: 100%;
-	height: auto;
-	padding-top: 60px;
-}
-/* portfolio section */
-#aboutus {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-#aboutus h2 {
+#Gallery h2 {
 	line-height: 20px;
 }
-#aboutus h3 {
-	color: #007d75;
+#Gallery h3 {
+	color: #eb5424;
 	padding-bottom: 60px;
 }
-
-#aboutus a {
+#Gallery a {
 	text-decoration: none;
 }
-#aboutus img {
+#Gallery img {
 	border-radius: 1px;
 	width: 100%;
 	max-width: 100%;
@@ -327,170 +198,190 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	opacity: 0.6;
 	transition: all 0.4s ease-in-out;
 }
-#aboutus img:hover {
+#Gallery img:hover {
 	opacity: 0.9;
 }
-/* price section */
 
-#review {
+#souvenirs h2 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#souvenirs img {
+	width: 100%;
+	max-width: 100%;
+	height: 250px;
+}
+
+/* restaurant section */
+
+
+/*placesection*/
+
+/*navber section*/
+.navbar-default {
+	background : #007d75;
+	border: : none;
+	box-shadow: : 0 2px 8px rgba(50, 50 ,50 ,0.04);
+	margin: 0 !important;
+}
+
+/*กำหนด คำว่า chomphon*/
+.navbar-default .navbar-brand {
+	color: #000000;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 40px !important;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+/*จัดระยะความห่างของnavbar*/
+.navbar-default .navbar-nav li a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+/*.navbar-default .navbar-nav li a{
+	background-color: #fff;
+	color: #007d75;
+}
+
+.nav-pills .nav-stacked li a{
+	background: #007d75;
+}*/
+
+/*สีตอนชี้ nav bar */
+.navbar-default .navbar-nav li a:hover {
+	color: #007d75;
+	background-color: #fff;
+}
+
+/*manu*/
+.navbar-default .navbar-nav ul li a {
+	color: #007d75;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav ul li a:hover {
+	background-color: transparent;
+	color: #fff;
+	background: #007d75;
+}
+
+.navbar-default .navbar-nav li a span:focus {
+	color: #007d75;
 	background: #fff;
+}
+
+/*.active{
+	list-style:none;
+	color: #ffffff;
+	list-style:none;
+  background-color:#007d75;
+}*/
+
+.restaurant ul li a{
+	font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*ไม่มีผลปิด
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #606060;
+	background-color: transparent;
+}*/
+/*ไม่มีผลปิด
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #007d75;
+	background-color: transparent;
+}*/
+/*
+.navbar-default .navbar-toggle {
+	border: none;
+	padding-top: 12px;
+}*/
+/*ไม่มีผลปิด
+.navbar-default .navbar-toggle .icon-bar {
+	background: #007d75;
+	border-color: transparent;
+}*/
+/*ไม่มีผลปิด
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}*/
+
+
+
+
+
+/* Chumphon section */
+#chumphon {
+	font-family: "Quark";
+}
+#chumphon{
+	font-size: 40px;
+}
+#chumphon {
 	padding-top: 100px;
 	padding-bottom: 120px;
 }
-#review .plan {
+#chumphon h4 {
+	padding-bottom: 16px;
+}
+/* intro section */
+
+
+/* work section
+
+
+/* footer section css */
+footer{
 	background: #007d75;
 	color: #ffffff;
-	padding: 0 0 60px 0;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-#review .plan .plan_title {
-	background-color: #f6f6f6;
-	color: #202020;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-#review .plan .plan_sub_title {
-	border-bottom: 1px solid #ffffff;
-	padding: 30px;
-}
-#review .plan ul {
-	padding: 0;
-}
-#review .plan ul li {
-	display: block;
-	font-family: "Proxima";
-	font-size: 16px;
-	padding: 40px 0 10px 0;
-}
-#review .plan .btn {
-	background: #ffffff;
-	border: none;
-	border-radius: 0;
-	color: #202020;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 20px 40px;
-	transition: all 0.4s ease-in-out;
-	margin-top: 20px;
-}
-#review .plan .btn:hover {
-	background: #202020;
-	color: #ffffff;
-}
-/* google map section */
-#map-canvas {
-	border: none;
-	width: 100%;
-	height: 400px;
-}
-/* contact section */
-
-#webboard {
-	background: #f6f6f6 url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
-	color: #ffffff;
-	padding-top: 100px;
-	padding-bottom: 80px;
-}
-#webboard h2 {
-#webboardh2 {
-	color: #ffffff;
-}
-#webboard .form-control {
-	border-radius: 4px;
-	border: none;
-	box-shadow: none;
-	margin-top: 12px;
-	margin-bottom: 14px;
-}
-#webboard input {
-	height: 50px;
-}
-#webboard input[type="submit"] {
-	background-color: #007d75;
-	color: #ffffff;
-	height: 60px;
-	font-weight: bold;
-	transition: all 0.4s ease-in-out;
-}
-#webboard input[type="submit"]:hover {
-	background-color: #202020;
-}
-/* footer section */
-footer {
-	background: #202020;
-	color: #ffffff;
-	border-bottom: 10px solid #ffffff;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-footer h2 {
-	padding-top: 40px;
+footer h2{
+	font-size: 20px;
 	padding-bottom: 20px;
 }
-footer p {
+footer p{
 	line-height: 20px;
+	font-size: 15px;
+	font-family: "Proxima";
 }
 footer .copyright a {
-	color: #007d75;
-}
-.social-icon {
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	vertical-align: middle;
+	color: #eb5424;
 }
 .social-icon li {
 	list-style: none;
 	display: inline-block;
 }
-
-.social-icon li a {
+.social-icon li a{
 	background: #f8f8f8;
 	border-radius: 100%;
-	color: #007d75;
-	font-size: 32px;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
+	color: #eb5424;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
 	text-align: center;
 	text-decoration: none;
 	transition: all 0.4s ease-in-out;
-	margin: 0 6px 40px 6px;
+	margin: 0 6px 10px 6px ;
 }
-.social-icon li a:hover {
-	background: #080808;
-}
-@media screen and (max-width:980px) {
-.navbar-default .navbar-nav li a {
-	padding-right: 14px;
-	padding-left: 14px;
-	font-size: 13px;
-}
-#hotels h2 {
-	font-size: 32px;
-}
-#souvenirs .title {
-	padding: 80px 20px 20px 20px;
-}
-.portfolio-thumb .portfolio-overlay {
-	padding-top: 24px;
-}
-}
-@media (max-width:767px) {
-.navbar-brand {
-	padding-top: 6px;
-}
-}
-@media (max-width:400px) {
-#restaurant h1 {
-	font-size: 32px;
-}
-#restaurant h2 {
-	font-size: 22px;
-}
-#hotels h2 {
-	font-size: 20px;
-}
-.portfolio-thumb .portfolio-overlay {
-	padding-top: 60px;
-}
+.social-icon li a:hover{
+	background: #eb5424;
+	color: #ffffff;
 }

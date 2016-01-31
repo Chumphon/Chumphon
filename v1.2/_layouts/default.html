@@ -17,21 +17,54 @@
 <link rel="stylesheet" href="css/nivo_themes/default/default.css">
 <link rel="stylesheet" href="css/templatemo-style.css">
 
-<!-- Welcome section -->
-<section id="welcome">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-ld-12">
-        <h1 class="wow bounceInDown rotate"> HELLO! CHUMPHON </h1>
-        <h2 class="wow bounce">THE DOOR OF SOUTH OF THAILAND </h2>
-        <!--a href="#chumphon" class="btn btn-default smoothScroll">GET STARTED</a></div-->
+<!-- Useful for styles with static names... -->
+<link href="{{http://chumphon.github.io/Chumphon/v1.2}}/path/to/css.css" rel="stylesheet">
+<!-- and for documents/pages whose URL's can change...
+<a href="{{ v1.2 | prepend: http://chumphon.github.io/Chumphon/ }}">{{ page.title }}</a>-->
 
+<!-- navigation section -->
+<!-- แก้ dropdown-menu-->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+  <FONT FACE="Proxima"><a href="index.html" class="navbar-brand"><div class="active">CHUMPHON</div></a></FONT>
     </div>
-  </div>
-</section>
+<ul class="nav nav-pills navbar-nav navbar-right">
+  <li role="presentation"><a href="place.html" style="text-decoration:none">สถานที่่ท่องเที่ยว</a></li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      ร้านอาหาร <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="bakery.html">Bakery</a></li>
+      <li class="divider"></li>
+      <li><a href="cafe.html">Cafe</a></li>
+      <li class="divider"></li>
+      <li><a href="restaurant.html">Restaurant</a></li>
+    </ul>
+  </li>
+  <li role="presentation"><a href="hotels.html" style="text-decoration:none">ที่พัก</a></li>
+  <li role="presentation"><a href="souvenirs.html" style="text-decoration:none">ของฝาก</a></li>
+  <li role="presentation"><a href="festival.html" style="text-decoration:none">FESTIVAL</a></li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="active">
+     รีวิว <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="reviews-search.html">ค้นหารีวิว</a></li>
+      <li class="divider"></li>
+      <li><a href="review-write.html">เขียนรีวิว</a></li>
+    </ul>
+  </li>
+  <li role="presentation"><a href="web_board.html" style="text-decoration:none">เว็บบอร์ด</a></li>
+</ul>
+</div>
+</div>
+
+
 </head>
 
-  
+
 
     <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
     <!-- preloader section -->
@@ -39,45 +72,20 @@
       <div class="sk-spinner sk-spinner-rotating-plane"></div>
     </div>
 
-
-    <!-- navigation section -->
-    <!-- แก้ dropdown-menu-->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <!-- Welcome section -->
+    <section id="welcome">
       <div class="container">
-        <div class="navbar-header">
-      <FONT FACE="Proxima"><a href="index.html" class="navbar-brand"><div class="active">CHUMPHON</div></a></FONT>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-ld-12">
+            <h1 class="wow bounceInDown rotate"> HELLO! CHUMPHON </h1>
+            <h2 class="wow bounce">THE DOOR OF SOUTH OF THAILAND </h2>
+            <!--a href="#chumphon" class="btn btn-default smoothScroll">GET STARTED</a></div-->
+
         </div>
-    <ul class="nav nav-pills navbar-nav navbar-right">
-      <li role="presentation"><a href="place.html" style="text-decoration:none">สถานที่่ท่องเที่ยว</a></li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          ร้านอาหาร <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="bakery.html">Bakery</a></li>
-          <li class="divider"></li>
-          <li><a href="cafe.html">Cafe</a></li>
-          <li class="divider"></li>
-          <li><a href="restaurant.html">Restaurant</a></li>
-        </ul>
-      </li>
-      <li role="presentation"><a href="hotels.html" style="text-decoration:none">ที่พัก</a></li>
-      <li role="presentation"><a href="souvenirs.html" style="text-decoration:none">ของฝาก</a></li>
-      <li role="presentation"><a href="festival.html" style="text-decoration:none">FESTIVAL</a></li>
-      <li role="presentation" class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="active">
-         รีวิว <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a href="reviews-search.html">ค้นหารีวิว</a></li>
-          <li class="divider"></li>
-          <li><a href="review-write.html">เขียนรีวิว</a></li>
-        </ul>
-      </li>
-      <li role="presentation"><a href="web_board.html" style="text-decoration:none">เว็บบอร์ด</a></li>
-    </ul>
-    </div>
-    </div>
+      </div>
+    </section>
+
+
 
     <div class="page-content">
       <div class="wrapper">
@@ -95,7 +103,7 @@
               <li><a href="#" class="fa fa-facebook wow bounceIn" data-wow-delay="0.3s"></a></li>
               <li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.6s"></a></li>
               <li><a href="#" class="fa fa-github wow bounceIn" data-wow-delay="0.9s"></a></li>
-              <li><a href="#" class="fa fa-twitter wow bounceIn" data-wow-delay="0.3s"></a></li>
+              <li><a href="#" class="fa fa-envelope wow bounceIn" data-wow-delay="0.3s"></a></li>
               <li><a href="#" class="fa fa-phone wow bounceIn" data-wow-delay="0.3s"></a></li>
             </ul>
           </div>

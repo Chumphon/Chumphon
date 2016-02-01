@@ -1,5 +1,7 @@
 ---
 layout: default
 title: About
-permalink: /about/
+breadcrumb:
+  - title: About
+    link: /about
 ---

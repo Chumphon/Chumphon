@@ -1,0 +1,484 @@
+
+body {
+	background: #f8f8f8;
+	color: #606060;
+	font-family: 'Quark', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	position: relative;
+}
+html, body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+@font-face {
+	font-family: 'Proxima';
+	src: url(../fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+	font-family: 'Proxima Bold';
+	src: url(../fonts/ProximaNova-Bold.otf);
+}
+@font-face {
+	font-family: 'Quark';
+	src: url(../fonts/Quark-Light.otf);
+}
+@font-face {
+font-family: 'Quark Bold';
+src:url(../fonts/Quark-Bold.otf);
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Proxima Bold", "Quark";
+	font-weight: bold;
+}
+p {
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+hr {
+	border-color: #e0e0e0;
+	margin: 0 auto 20px auto;
+	width: 100px !important;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 48px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+.title {
+	padding-bottom: 40px;
+}
+.title h2 {
+	color: #202020;
+	line-height: 20px;
+	padding-bottom: 30px;
+}
+.title p {
+	padding-top: 14px;
+	padding-bottom: 30px;
+}
+.parallax-section {
+	background-attachment: fixed !important;
+	background-size: cover !important;
+}
+/* preloader section */
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: none repeat scroll 0 0 #fff;
+	background: none repeat scroll 0 0 #f9f9f9;
+}
+/*คืออะไร*/
+.sk-spinner-rotating-plane.sk-spinner {
+	width: 40px;
+	height: 40px;
+	background-color: #007d75;
+	border-radius: 50%;
+	-webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+	animation: sk-rotatePlane 1.2s infinite ease-in-out;
+}
+@keyframes sk-rotatePlane {
+0% {
+-webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+}
+50% {
+-webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+}
+100% {
+-webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+}
+}
+/*Welcome section*/
+#welcome {
+	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	color: #000000;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+#welcome h2 {
+	letter-spacing: 2px;
+}
+#welcome .btn {
+	background: #007d75;
+	background: #FFFFFF ;
+	border-radius: 4px;
+	border: none;
+	color: #007d75;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+
+#welcome .btn {
+	background: #007d75;
+	background: #FFFFFF ;
+	border-radius: 4px;
+	border: none;
+	color: #007d75;
+	font-size: 16px;
+	padding: 20px 40px;
+	margin-top: 60px;
+}
+
+#welcome .btn:hover {
+	background: #007d75;
+	color: #FFFFFF;
+	transition: all 0.4s ease-in-out;
+}
+
+
+
+/* Gallery section */
+#Gallery {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#Gallery h2 {
+	line-height: 20px;
+}
+#Gallery h3 {
+	color: #eb5424;
+	padding-bottom: 60px;
+}
+#Gallery a {
+	text-decoration: none;
+}
+#Gallery img {
+	border-radius: 1px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	opacity: 0.8;
+	margin-bottom: 34px;
+	opacity: 0.6;
+	transition: all 0.4s ease-in-out;
+}
+#Gallery img:hover {
+	opacity: 0.9;
+}
+
+
+//*souvenirs*//
+#souvenirs h2 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#souvenirs img {
+	width: 300px;
+	max-width: 100%;
+	height: 200px;
+}
+
+#souvenirs01 img {
+	width: 300px;
+	height: 200px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-left:-100px;
+	margin-top:-50px;
+
+}
+/* restaurant section */
+
+
+/*placesection*/
+
+/*navber section*/
+.navbar-default {
+	background : #007d75;
+	border: : none;
+	box-shadow: : 0 2px 8px rgba(50, 50 ,50 ,0.04);
+	margin: 0 !important;
+}
+
+/*กำหนด คำว่า chomphon*/
+.navbar-default .navbar-brand {
+	color: #000000;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 30px !important;
+}
+
+.navbar-default .navbar-brand :hover {
+	color: #fff;
+}
+
+/*จัดระยะความห่างของnavbar*/
+.navbar-default .navbar-nav li a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 30px;
+}
+
+/*.navbar-default .navbar-nav li a{
+	background-color: #fff;
+	color: #007d75;
+}
+
+.nav-pills .nav-stacked li a{
+	background: #007d75;
+}*/
+
+/*สีตอนชี้ nav bar */
+.navbar-default .navbar-nav li a:hover {
+	color: #007d75;
+	background-color: #fff;
+}
+
+
+
+/*manu*/
+.navbar-default .navbar-nav ul li a {
+	color: #007d75;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav ul li a:hover {
+	background-color: transparent;
+	color: #fff;
+	background-color: #007d75;
+}
+
+.navbar-default .navbar-nav li a span:focus {
+	color: #007d75;
+	background-color : #fff;
+}
+
+.list-group{
+	line : 80px;
+}
+
+/*.active{
+	list-style:none;
+	color: #ffffff;
+	list-style:none;
+  background-color:#007d75;
+}*/
+
+.restaurant ul li a{
+	font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*ไม่มีผลปิด
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #606060;
+	background-color: transparent;
+}*/
+/*ไม่มีผลปิด
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #007d75;
+	background-color: transparent;
+}*/
+/**/
+.navbar-default .navbar-toggle {
+	border: none;
+
+}
+/*เวลาทำหน้าจอเล็ก*/
+.navbar-default .navbar-toggle .icon-bar {
+	background: #ffffff;
+	border-color: transparent;
+}
+/*ไม่มีผลปิด*/
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+
+
+
+
+/* Chumphon section */
+#chumphon {
+	font-family: "Quark";
+}
+#chumphon{
+	font-size: 40px;
+}
+#chumphon {
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+#chumphon h4 {
+	padding-bottom: 16px;
+}
+
+/* white-bg info section */
+#info1{
+	font-family: "Quark";
+}
+#info1 h2{
+	font-size: 32px;
+}
+#info1 {
+	background-color: #ffffff;
+}
+#info1 .container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#info1 .title {
+	padding-top: 100px;
+	padding-left: 60px;
+	padding-right: 100px;
+	padding-bottom: 0;
+}
+#info1 .title2 {
+	padding-top: 0;
+	padding-left: 60px;
+	padding-right: 100px;
+	padding-bottom: 40px;
+}
+#info1 .img {
+	padding-top: 60px;
+	padding-left: 200px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+}
+#info1 .btn {
+	background-color: #007d75 ;
+	color: #fff;
+	font-size: 15px;
+}
+
+/* Green-bg info section*/
+#info2 {
+	font-family: "Quark";
+}
+#info2{
+	background-color: #007d75;
+	color: #ffffff;
+}
+#info2 h2{
+	font-size: 32px;
+	color: #ffffff;
+}
+#info2 .container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#info2 .title {
+	padding-top: 100px;
+	padding-left: 60px;
+	padding-right: 100px;
+	padding-bottom: 0;
+}
+#info2 .title2 {
+	padding-top: 0;
+	padding-left: 60px;
+	padding-right: 100px;
+	padding-bottom: 40px;
+}
+#info2 .img {
+	padding-top: 60px;
+	padding-left: 200px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+}
+#info2 .btn {
+	background-color: #fff ;
+	color: #007d75;
+	font-size: 15px;
+}
+
+
+/* work section
+
+
+/* footer section css */
+footer{
+	background: #007d75;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer h2{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+footer p{
+	line-height: 20px;
+	font-size: 15px;
+	font-family: "Proxima";
+}
+footer .copyright a {
+	color: #eb5424;
+}
+.social-icon li {
+	list-style: none;
+	display: inline-block;
+}
+.social-icon li a{
+	background: #f8f8f8;
+	border-radius: 100%;
+	color: #eb5424;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+	margin: 0 6px 10px 6px ;
+}
+.social-icon li a:hover{
+	background: #eb5424;
+	color: #ffffff;
+}

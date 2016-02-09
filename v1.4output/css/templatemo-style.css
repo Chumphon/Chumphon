@@ -383,12 +383,14 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-left: 60px;
 	padding-right: 100px;
 	padding-bottom: 40px;
+
 }
 #info1 .img {
 	padding-top: 60px;
 	padding-left: 200px;
 	padding-right: 50px;
 	padding-bottom: 40px;
+	
 }
 #info1 .btn {
 	background-color: #007d75 ;
@@ -430,6 +432,8 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-left: 200px;
 	padding-right: 50px;
 	padding-bottom: 40px;
+	width: 500px;
+	height: 332px;
 }
 #info2 .btn {
 	background-color: #fff ;

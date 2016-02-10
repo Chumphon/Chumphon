@@ -125,7 +125,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /*Welcome section*/
 #welcome {
-	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	/*background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;*/
 	color: #000000;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -209,13 +209,15 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	font-weight: bold;
 	font-size: 40px;
 }
-
 #souvenirs img {
 	width: 300px;
 	max-width: 100%;
 	height: 200px;
 }
-
+#souvenirs .btn {
+	background-color: #007d75 ;
+	color: #fff;
+}
 #souvenirs01 img {
 	width: 300px;
 	height: 200px;
@@ -240,7 +242,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 
 /*กำหนด คำว่า chomphon*/
-.navbar-default .navbar-brand {
+.navbar-brand .active{
 	color: #000000;
 	font-size: 40px;
 	font-weight: bold;
@@ -386,11 +388,13 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 
 }
 #info1 .img {
-	padding-top: 60px;
-	padding-left: 200px;
-	padding-right: 50px;
+	padding-top: 120px;
+	padding-left: 100px;
+	padding-right: 20px;
 	padding-bottom: 40px;
-	
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 #info1 .btn {
 	background-color: #007d75 ;
@@ -428,12 +432,13 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 40px;
 }
 #info2 .img {
-	padding-top: 60px;
-	padding-left: 200px;
-	padding-right: 50px;
+	padding-top: 120px;
+	padding-left: 100px;
+	padding-right: 20px;
 	padding-bottom: 40px;
-	width: 500px;
-	height: 332px;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 #info2 .btn {
 	background-color: #fff ;

@@ -458,10 +458,13 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 40px;
 }
 #info1 .img {
-	padding-top: 60px;
-	padding-left: 200px;
-	padding-right: 50px;
+	padding-top: 120px;
+	padding-left: 100px;
+	padding-right: 20px;
 	padding-bottom: 40px;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 #info1 .btn {
 	background-color: #007d75 ;
@@ -499,10 +502,13 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	padding-bottom: 40px;
 }
 #info2 .img {
-	padding-top: 60px;
-	padding-left: 200px;
-	padding-right: 50px;
+	padding-top: 120px;
+	padding-left: 100px;
+	padding-right: 20px;
 	padding-bottom: 40px;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 #info2 .btn {
 	background-color: #fff ;

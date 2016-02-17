@@ -125,7 +125,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }
 /*Welcome section*/
 #welcome {
-	background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+	background: url('./images/home-bg.jpg') 50% 0 repeat-y fixed;
 	color: #000000;
 	display: -webkit-box;
 	display: -webkit-flex;

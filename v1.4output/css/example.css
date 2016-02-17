@@ -84,6 +84,36 @@
 }
 
 /*สถานที่ท่องเที่ยว*/
+@media (min-width: 320px) {
+  #info2 {
+	   font-size: 12px;
+  }
+}
+@media (min-width: 320px) {
+  #info1 {
+	   font-size: 12px;
+  }
+}
+@media (min-width: 320px) {
+  #info2 h1{
+	   font-size: 22px;
+  }
+}
+@media (min-width: 320px) {
+  #info1 h1{
+	   font-size: 22px;
+  }
+}
+@media (min-width: 320px) {
+  #info2 h2{
+	   font-size: 18px;
+  }
+}
+@media (min-width: 320px) {
+  #info1 h2{
+	   font-size: 18px;
+  }
+}
 @media (min-width: 768px) {
   #info2 {
 	   font-size: 12px;
@@ -92,6 +122,16 @@
 @media (min-width: 768px) {
   #info1 {
 	   font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  #info2 h1{
+	   font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  #info1 h1{
+	   font-size: 22px;
   }
 }
 @media (min-width: 768px) {
@@ -115,6 +155,16 @@
   }
 }
 @media (min-width: 992px) {
+  #info2 h1{
+	   font-size: 35px;
+  }
+}
+@media (min-width: 992px) {
+  #info1 h1{
+	   font-size: 35px;
+  }
+}
+@media (min-width: 992px) {
   #info2 h2{
 	   font-size: 26px;
   }
@@ -132,6 +182,16 @@
 @media (min-width: 1200px) {
   #info1 {
 	   font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  #info2 h1{
+	   font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  #info1 h1{
+	   font-size: 50px;
   }
 }
 @media (min-width: 1200px) {

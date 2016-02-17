@@ -308,7 +308,7 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 }*/
 
 .restaurant ul li a{
-	font-weight: bold;
+
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -333,14 +333,10 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	background: #ffffff;
 	border-color: transparent;
 }
-/*ไม่มีผลปิด*/
+
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
 }
-
-
-
-
 
 /* Chumphon section */
 #chumphon {
@@ -356,6 +352,83 @@ transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 #chumphon h4 {
 	padding-bottom: 16px;
 }
+
+
+/*breadcrumb*/
+#breadcrumb {
+	background-color: #fff;
+}
+
+#breadcrumb .active{
+	font-weight: bold;
+	color: #007d75;
+
+}
+/** The Magic **/
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent; /*สามเหลี่ยม*/
+  border-bottom: 12px solid transparent; /*สามเหลี่ยม*/
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px; /*สามเหลี่ยม*/
+  left: 100%;
+  z-index: 3;
+
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent; /*สามเหลี่ยม*/
+  border-bottom: 12px solid transparent; /*สามเหลี่ยม*/
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -12px; /*สามเหลี่ยม*/
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+
+}
+/** The Spacing **/
+.btn-breadcrumb {
+	float: left;
+	padding-top: 10px;
+}
+.btn-breadcrumb .btn {
+  padding:0 12px 0 24px;
+
+}
+.btn-breadcrumb .btn:first-child {
+  padding:0 6px 0 10px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding:0 18px 0 24px;
+}
+.btn-breadcrumb a {
+  font-size: 15px;
+}
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+  border-left: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+  border-left: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-left: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-left: 10px solid #adadad;
+}
+
+
 
 /* white-bg info section */
 #info1{

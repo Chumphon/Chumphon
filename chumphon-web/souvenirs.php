@@ -1,0 +1,110 @@
+<?
+$title = "CHUMPHON WEB SITE";
+
+$content = <<<END
+
+<!--breadcrumb -->
+<section id="breadcrumb">
+  <div class="container">
+      <div class="row">
+          <div class="btn-group btn-breadcrumb">
+              <a href="index.html" class="btn btn-default">หน้าแรก</a>
+              <a href="#souvenirs" class="btn btn-default"><div class="active">ของฝาก</div></a>
+          </div>
+      </div>
+	</div>
+</section>
+
+<section id="souvenirs">
+  <h2 data-wow-delay="0.9s">ของฝาก</h2>
+  <hr>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-xs-12 col-lg-4">
+        <div class="thumbnail">
+          <img class="img-responsive" src="./images/souvenirs01.jpg" alt="กล้วยเล็บมือนาง" class="img-rounded">
+          <div class="caption">
+            <h4>กล้วยเล็บมือนาง</h4>
+            <p>เป็นของฝากที่นิยมมากที่สุดจนกลายเป็นสินค้า<br>
+              พื้นเมืองที่มีชื่อเสียงของ จ. ชุมพร หาซื้อได้ตั้งแต่<br>
+              เริ่มเข้าเขตชุมพรที่แผงขายของริมทางบริเวณ<br>
+              ศาลพ่อตาหินช้าง ปลูกกันทั่วไปโดยเฉพาะ...(มีต่อ)</p>
+            <p><a href="souvenirs1.html" class="btn btn-primary" role="button">อ่านต่อ</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xs-12 col-lg-4">
+        <div class="thumbnail">
+          <img class="img-responsive" src="./images/souvenirs02.jpg" alt="ทุเรียน" class="img-rounded">
+          <div class="caption">
+            <h4>ทุเรียน</h4>
+            <p>เมืองชุมพรปลูกทุเรียนกันมากแทบทุกท้องที่<br>
+              ปกติจะมีผลผลิตออกมากช่วงเดือน ก.ค.-ส.ค. แต่ปัจจุบัน<br>
+              สวนขนาดใหญ่หลายแห่งสามารถคิดค้นวิธีควบคุมให้ทุเรียน<br>
+              ออกผลผลิตนอกฤดู ทำให้มีทุเรียนตลอดปี สร้าง...(มีต่อ)</p>
+            <p><a href="souvenirs2.html" class="btn btn-primary" role="button">อ่านต่อ</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xs-12 col-lg-4">
+      <div class="thumbnail">
+          <img class="img-responsive" src="./images/souvenirs04.jpg" alt="ทุเรียน" class="img-rounded">
+          <div class="caption">
+            <h4>หมึกแห้ง</h4>
+            <p>แหล่งใหญ่อยู่ที่ปากน้ำชุมพร ปากน้ำหลังสวน <br>
+              และอ่าวทุ่งมหา สามารถหาซื้อได้จากแหล่งผลิตโดยตรง <br>
+              ปากน้ำชุมพร (เก่า) ราคาถูกที่สุด เพราะ<br>
+              เป็นท่าเรือใหญ่มีหมึกเข้ามามากกว่าแหล่งอื่น โดย...(มีต่อ)</p>
+            <p><a href="souvenirs3.html" class="btn btn-primary" role="button">อ่านต่อ</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xs-12 col-lg-4">
+        <div class="thumbnail">
+          <img class="img-responsive" src="./images/souvenirs05.jpg" alt="ทุเรียน" class="img-rounded">
+          <div class="caption">
+            <h4>กะปิ</h4>
+            <p>กะปิเมืองชุมพรเป็นที่ยอมรับกันมานานแล้วว่า<br>
+              มีคุณภาพดี และรสอร่อย เพราะทำจากเคยล้วนๆ <br>
+              โดยเฉพาะแถบปากน้ำชุมพรและอ่าวทุ่งมะขาม<br>
+              ในช่วงเดือน ก.พ. จะมีเคยหรือ...(มีต่อ)</p>
+            <p><a href="souvenirs4.html" class="btn btn-primary" role="button">อ่านต่อ</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xs-12 col-lg-4">
+        <div class="thumbnail">
+          <img class="img-responsive" src="./images/souvenirs06.jpg" alt="ทุเรียน" class="img-rounded">
+          <div class="caption">
+            <h4>รังนก</h4>
+            <p>รังนกนางแอ่นของจังหวัดชุมพรเป็นรังนกที่ได้รับ<br>
+              การยอมรับจากผู้รักสุขภาพ ทั้งชาวไทย<br>
+              และชาวต่างประเทศ ไม่ว่าจะเป็น ชาวจีน <br>
+              ฮ่องกง หรือใต้หวัน คนนิยมรับประทาน...(มีต่อ)</p>
+            <p><a href="souvenirs5.html" class="btn btn-primary" role="button">อ่านต่อ</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xs-12 col-lg-4">
+        <div class="thumbnail">
+          <img class="img-responsive" src="./images/souvenirs07.jpg" alt="ทุเรียน" class="img-rounded">
+          <div class="caption">
+            <h4>กาแฟสด</h4>
+            <p>ชุมพรเป็นจังหวัดที่มีพื้นที่ปลูกกาแฟมากที่สุด<br>
+              ในประเทศไทย คนที่ชื่นชอบกาแฟจึงไม่ควรพลาดที่จะ<br>
+              ไปเที่ยวไร่กาแฟที่เขาทะลุ เพราะที่นี่เป็นจุดเริ่มต้น<br>
+              ของความกลมกล่อมในรสชาติ...(มีต่อ)</p>
+            <p><a href="souvenirs6.html" class="btn btn-primary" role="button">อ่านต่อ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+END;
+
+include __DIR__ . '\_layouts\default.php';

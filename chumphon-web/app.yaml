@@ -1,0 +1,25 @@
+application: chumphon-web
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: .*
+  script: main.php
+
+- url: /css
+  static_dir: css
+
+- url: /img
+  static_dir: img
+
+- url: /(.+)
+  script: \1.php
+
+- url: /
+  script: index.php
